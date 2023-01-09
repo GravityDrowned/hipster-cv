@@ -13,7 +13,7 @@
 \setlength{\rightcolwidth}{0.65\textwidth}
 
 %------------------------------------------------------------------
-\title{Hipster-CV}
+\title{fork of Hipster-CV}
 \author{\LaTeX{} Ninja}
 \date{March 2019}
 
@@ -28,8 +28,10 @@
 
 
 
-\header{\bg{headerfontbox}{headerfontboxfont}{Captain} }{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Jack Sparrow}}{\bg{headerfontbox}{headerfontboxfont}{\large Pirate}}{jack.jpg}{headerblue}{3.5cm}{2cm}
-
+\header{ }%\bg{headerfontbox}{headerfontboxfont}{}
+{\bg{headerfontbox}{headerfontboxfont}
+{\bfseries\Huge Michael Wagner}}
+{\bg{headerfontbox}{headerfontboxfont}{\large M.Sc. Computer Science}}{img/michael3.png}{headerblue}{3.5cm}{2cm}
 
 
 %------------------------------------------------
@@ -55,17 +57,17 @@
 \bg{cvgreen}{white}{personal} \\
 
 \begin{tabular}{ll}
-\faMale&Jack Sparrow \\
-\faGlobe& nationality: English  \\
-\faBirthdayCake&1690 \\
-\faMapMarker&on a ship \\
+\faMale&Michael Wagner \\
+\faGlobe& nationality: German  \\
+\faBirthdayCake&1995 \\
+\faMapMarker&Erlangen \\
 \end{tabular}
 
 \bigskip
 
 \bg{cvgreen}{white}{Areas of specialization} \\
 
-Privateering ~•~ Bucaneering ~•~ Parler
+Software Dev ~•~ Containerization ~•~ ELNs
 
 \bigskip
 
@@ -73,11 +75,10 @@ Privateering ~•~ Bucaneering ~•~ Parler
 \bg{cvgreen}{white}{Languages}
 \bigskip
 
-
 \begin{minipage}[t]{\leftcolwidth}
 \begin{tabular}{l | ll}
-\textbf{English} & C2 & {\phantom{x}\footnotesize mother tongue} \\
-\textbf{French} & C2 & \pictofraction{\faCircle}{cvpurple}{3}{black!30}{1}{\tiny}
+\textbf{German} & C2 & {\phantom{x}\footnotesize mother tongue} \\
+\textbf{English} & C2 & \pictofraction{\faCircle}{cvpurple}{3}{black!30}{1}{\tiny}
 \end{tabular}
 \end{minipage}
 
@@ -85,21 +86,21 @@ Privateering ~•~ Bucaneering ~•~ Parler
 
 \bg{cvgreen}{white}{Interests}\\
 
-\bubblediagram{{\textbf{a pirate's} \\\textbf{life}},  the sea, pillaging, plundering, ships, stealing, hijacking, \textbf{The Black}\\ \textbf{Pearl}}
+\bubblediagram{{\textbf{computer} \\\textbf{science}}, python,data crawling ,machine\\learning, data science,design, software\\ development,  artificial \\intelligence}
+\hspace{3cm} \color{labelcolour}{OS xp:} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large}  \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} 
 
-\hspace{3cm} \color{labelcolour}{OS:} \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large} 
 \bigskip
 
 \bg{cvgreen}{white}{IT \& programming} \\
 
 \begin{minipage}[t]{0.3\textwidth}
 \begin{tabular}{r @{\hspace{0.5em}}l}
-     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.4}{0.5em}{cvpurple}\\
-     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.55}{0.5em}{cvgreen} \\
-     \bg{skilllabelcolour}{iconcolour}{xslt} & \barrule{0.5}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.5}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.25}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.1}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{html, css, js} &  \barrule{0.45}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.30}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.55}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{SQL} & \barrule{0.34}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{scala} & \barrule{0.30}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{MongoDB} & \barrule{0.27}{0.5em}{cvpurple} 
 \end{tabular}
 
 
@@ -108,9 +109,13 @@ Privateering ~•~ Bucaneering ~•~ Parler
 
 
 \bigskip
-
+%Todo: github icon, website link
 \scalebox{0.8}{
-\iconcross{\Huge}{white}{cvred}{\color{black!30}\faBook}{\href{mailto:the.latex.ninja@gmail.com}{\faEnvelopeO}}{\faPhone}{\faCode}
+\iconcross{\Huge}{white}{cvred}
+{\href{https://github.com/GravityDrowned}{\color{black!30}\faGlobe}}
+{\href{mailto:michael.wagner.bamberg@gmail.com}{\faEnvelopeO}}
+{\href{tel:4915758776060}{\faPhone}}
+{\href{https://github.com/GravityDrowned/hipster-cv}{\faCode}}
 }
 
 \phantom{turn the page}
@@ -124,9 +129,11 @@ Privateering ~•~ Bucaneering ~•~ Parler
 \section*{Short Resumé}
 
 \begin{tabular}{r| p{0.4\textwidth} c}
-    \cvevent{2018--2021}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back.}{disney.png} \\
-    \cvevent{2019}{Freelance Pirate}{Bucaneering}{Tortuga \color{cvred}}{This and that. The usual, aye?}{medal.jpeg} \\
-    \cvevent{2016--2017}{Captain of the Black Pearl}{Lead}{Tortuga \color{cvred}}{Found a secret treasure, lost the ship.}{medal.jpeg}
+    \cvevent{Since 2021}{IT Allrounder}{CDI FAU}{Erlangen \color{cvred}}{FAU Competence Unit for Research Data and Information}{img/cdi.png} \\
+    \cvevent{2018--2021}{Master of Science in Computer Science}{FAU}{Erlangen \color{cvred}}{Acquiring some more knowledge.}{img/fau.jpg} \\
+    \cvevent{Since 2017}{Software Developer}{Bender Verlags GmbH}{Au in der Hallertau \color{cvred}}{Testing my know-how under real conditions.}{img/bender.png} \\
+    \cvevent{2015--2018}{Bachelor of Science in Computer Science}{FAU}{Erlangen \color{cvred}}{This is much better.}{img/fau.jpg} \\
+    \cvevent{2013--2015}{Bachelor of Science in\newline Business Information Technology }{THI}{Ingolstadt\color{cvred}}{Not quite what I was looking for.}{img/thi.jpg}
 \end{tabular}
 
 \vspace{4em}
@@ -134,19 +141,20 @@ Privateering ~•~ Bucaneering ~•~ Parler
 \begin{minipage}[t]{0.4\textwidth}
 \section*{Degrees}
 \begin{tabular}{r p{0.6\textwidth} c}
-    \cvdegree{1710}{Captain}{Certified}{Tortuga Uni \color{headerblue}}{}{disney.png} \\
-    \cvdegree{1715}{Bucaneering}{M.A.}{London \color{headerblue}}{}{medal.jpeg} \\
-    \cvdegree{1720}{Bucaneering}{B.A.}{London \color{headerblue}}{}{medal.jpeg}
+    \cvdegree{2021}{M.Sc. Computer Science}{FAU}{Erlangen \color{headerblue}}{}{img/fau.jpg}\\
+    \cvdegree{2018}{B.Sc. Computer Science}{FAU}{Erlangen \color{headerblue}}{}{img/fau.jpg}\\
+    \cvdegree{2013}{Abitur}{Dientzenhofer Gymnasium}{ Bamberg\color{headerblue}}{}{img/dg.png}
 \end{tabular}
 \end{minipage}\hfill
+%ToDo: add Pen & Paper
 \begin{minipage}[t]{0.16\textwidth}
 \section*{Hobbies}
 % usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
-\hobbyicon{\color{iconcolour}\faFlask}{Rhum}{cvgreen}{\iconsize}{2em} \hfill
-\hobbyicon{\color{iconcolour}\faBook}{The Code}{cvorange}{\iconsize}{2em}
+\hobbyicon{\color{iconcolour}\faQuestion}{}{cvgreen}{\iconsize}{2em}\hfill
+\hobbyicon{\color{iconcolour}\faLaptop}{}{headerblue}{\iconsize}{2em}
 
-\hobbyicon{\color{iconcolour}\faComment}{Parler}{cvpurple}{\iconsize}{2em} \hspace{1em}
-\hobbyicon{\color{iconcolour}\faBeer}{Beer}{headerblue}{\iconsize}{2em}
+\hobbyicon{\color{iconcolour}\faBook}{}{cvpurple}{\iconsize}{2em} \hfill
+\hobbyicon{\color{iconcolour}\faCode}{}{cvorange}{\iconsize}{2em} 
 \end{minipage}
 
 \vspace{4em}
@@ -154,29 +162,31 @@ Privateering ~•~ Bucaneering ~•~ Parler
 \begin{minipage}[t]{0.3\textwidth}
 \section*{Certificates \& Grants}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
-    1708 & Captain's Certificates \\
-    1710 & Travel grant \\
-    1715--1716 & Grant from the Pirate's Company
+    2013 & Abitur\\
+    2018 & B.Sc. computer science \\
+    2019 & Innovation Lab for Wearable and Ubiquitous Computing\\
+    2020 &  Best Technical Implementation HACK|BAY 2020
 \end{tabular}
-\section*{Strenghts}
-\cvtag{honest}
-\cvtag{thieving}
-\cvtag{handsome}
-\section*{References}
-\cvkeyword{Will Turner}{cvgreen}{iconcolour}
-\cvkeyword{Barbossa}{cvgreen}{iconcolour} \\
-
-\cvkeyword{possibly Mr. Swan}{headerblue}{iconcolour}
+%\section*{Strenghts}
+%\cvtag{independent}
+%\cvtag{open\-minded} \\
+%\cvtag{determined}
+%\cvtag{strategic}
+%\section*{References}
+%\cvkeyword{Will Turner}{cvgreen}{iconcolour}
+%\cvkeyword{Barbossa}{cvgreen}{iconcolour} \\
+%\cvkeyword{possibly Mr. Swan}{headerblue}{iconcolour}
 \end{minipage}\hfill
 \begin{minipage}[t]{0.3\textwidth}
 \section*{Publications}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
-    1729 & \emph{How I almost got killed by Lady Swan}, Tortuga Printing Press. \\
-    1720 & ``Privateering for Beginners'', in: \emph{The Pragmatic Pirate} (1/1720).
+    2018 & \emph{Gesture and pose recognition in VR by means of neuronal networks}, bachelor thesis. 
 \end{tabular}
 \section*{Talks}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
-    Nov. 1726 & ``How I lost my ship (\& and how to get it back)'', at: \emph{Annual Pirate's Conference} in Tortuga, Nov. 1726.
+    Oct. 2018& presentation of bachelor thesis, at: \emph{LGDV} in Erlangen. \\
+    Jul. 2019& Innovation Lab pitch, at: \emph{MaD Lab} in Erlangen.\\
+    May 2020& HACK|BAY 2020 challenge pitch in Nuremberg.
 \end{tabular}
 \end{minipage}
 
@@ -189,14 +199,18 @@ Privateering ~•~ Bucaneering ~•~ Parler
 
 
 \vfill{} % Whitespace before final footer
-
 %----------------------------------------------------------------------------------------
 %	FINAL FOOTER
 %----------------------------------------------------------------------------------------
 \setlength{\parindent}{0pt}
 \begin{minipage}[t]{\rightcolwidth}
 \begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
-{\small Jack Sparrow \icon{\faEnvelopeO}{cvpurple}{} The Black Pearl \icon{\faMapMarker}{cvpurple}{} Tortuga \icon{\faPhone}{cvpurple}{} 0099/333 5647380 \newline\icon{\faAt}{cvpurple}{} \protect\url{jack@sparrow.com}
+{
+\small Michael Wagner 
+\icon{\faMapMarker}{cvpurple}{} Erlangen 
+\icon{\faEnvelopeO}{cvpurple}{} michael.wm.wagner@fau.de\newline 
+
+\icon{\faPhone}{cvpurple}{} 49 1575 8776060 %\icon{\faAt}{cvpurple}{} \protect\url{jack@sparrow.com}
 }
 \end{center}
 \end{minipage}
