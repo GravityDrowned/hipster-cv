@@ -1,5 +1,5 @@
-\documentclass[grey]{hipstercv}
-% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight
+\documentclass[michiscolours]{hipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, michiscolours
 \usepackage[utf8]{inputenc}
 \usepackage[default]{raleway}
 \usepackage[margin=1cm, a4paper]{geometry}
@@ -44,8 +44,7 @@
 \columnratio{0.3}[0.65]
 \begin{paracol}{2}
 \hbadness5000
-%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
-
+%\backgroundcolor{c[2]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
 \paracolbackgroundoptions
 
 % 0.9,0.9,0.9 -- 0.8,0.8,0.8
@@ -67,7 +66,7 @@
 
 \bg{cvgreen}{white}{Areas of specialization} \\
 
-Software Dev ~•~ Containerization ~•~ ELNs
+Software \& Application oriented%~•~ 
 
 \bigskip
 
@@ -78,7 +77,7 @@ Software Dev ~•~ Containerization ~•~ ELNs
 \begin{minipage}[t]{\leftcolwidth}
 \begin{tabular}{l | ll}
 \textbf{German} & C2 & {\phantom{x}\footnotesize mother tongue} \\
-\textbf{English} & C2 & \pictofraction{\faCircle}{cvpurple}{3}{black!30}{1}{\tiny}
+\textbf{English} & C2 & \pictofraction{\faCircle}{cvpurple}{4}{black!30}{1}{\tiny}
 \end{tabular}
 \end{minipage}
 
@@ -87,7 +86,8 @@ Software Dev ~•~ Containerization ~•~ ELNs
 \bg{cvgreen}{white}{Interests}\\
 
 \bubblediagram{{\textbf{computer} \\\textbf{science}}, python,data crawling ,machine\\learning, data science,design, software\\ development,  artificial \\intelligence}
-\hspace{3cm} \color{labelcolour}{OS xp:} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large}  \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} 
+%
+\hspace{3cm} \color{labelcolour}{OS exp.:} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large}  \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} 
 
 \bigskip
 
@@ -95,12 +95,12 @@ Software Dev ~•~ Containerization ~•~ ELNs
 
 \begin{minipage}[t]{0.3\textwidth}
 \begin{tabular}{r @{\hspace{0.5em}}l}
-     \bg{skilllabelcolour}{iconcolour}{html, css, js} &  \barrule{0.45}{0.5em}{cvpurple}\\
-     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.30}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.55}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{SQL} & \barrule{0.34}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{scala} & \barrule{0.30}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{MongoDB} & \barrule{0.27}{0.5em}{cvpurple} 
+     \bg{skilllabelcolour}{iconcolour}{html, css, js} &  \barrule{0.5}{0.5em}{iconcolour}\\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.30}{0.5em}{iconcolour} \\
+     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.55}{0.5em}{iconcolour} \\
+     \bg{skilllabelcolour}{iconcolour}{SQL} & \barrule{0.34}{0.5em}{iconcolour} \\
+     \bg{skilllabelcolour}{iconcolour}{scala} & \barrule{0.30}{0.5em}{iconcolour} \\
+     \bg{skilllabelcolour}{iconcolour}{MongoDB} & \barrule{0.27}{0.5em}{iconcolour} 
 \end{tabular}
 
 
@@ -111,8 +111,8 @@ Software Dev ~•~ Containerization ~•~ ELNs
 \bigskip
 %Todo: github icon, website link
 \scalebox{0.8}{
-\iconcross{\Huge}{white}{cvred}
-{\href{https://github.com/GravityDrowned}{\color{black!30}\faGlobe}}
+\iconcross{\Huge}{white}{labelcolour}
+{\href{https://github.com/GravityDrowned}{\faGlobe}}
 {\href{mailto:michael.wagner.bamberg@gmail.com}{\faEnvelopeO}}
 {\href{tel:4915758776060}{\faPhone}}
 {\href{https://github.com/GravityDrowned/hipster-cv}{\faCode}}
@@ -128,12 +128,12 @@ Software Dev ~•~ Containerization ~•~ ELNs
 \small
 \section*{Short Resumé}
 
-\begin{tabular}{r| p{0.4\textwidth} c}
-    \cvevent{Since 2021}{IT Allrounder}{CDI FAU}{Erlangen \color{cvred}}{FAU Competence Unit for Research Data and Information}{img/cdi.png} \\
-    \cvevent{2018--2021}{Master of Science in Computer Science}{FAU}{Erlangen \color{cvred}}{Acquiring some more knowledge.}{img/fau.jpg} \\
-    \cvevent{Since 2017}{Software Developer}{Bender Verlags GmbH}{Au in der Hallertau \color{cvred}}{Testing my know-how under real conditions.}{img/bender.png} \\
-    \cvevent{2015--2018}{Bachelor of Science in Computer Science}{FAU}{Erlangen \color{cvred}}{This is much better.}{img/fau.jpg} \\
-    \cvevent{2013--2015}{Bachelor of Science in\newline Business Information Technology }{THI}{Ingolstadt\color{cvred}}{Not quite what I was looking for.}{img/thi.jpg}
+\begin{tabular}{r| p{0.391\textwidth} c}
+    \cvevent{Since 2021}{IT Allrounder}{FAU Competence Unit for Research Data and Information}{Erlangen \color{cvgreen}}{}{img/cdi.png} \\
+    \cvevent{2018--2021}{Computer Science (Informatik) M.Sc.}{FAU}{Erlangen \color{cvgreen}}{}{img/fau.png} \\
+    \cvevent{Since 2017}{Software Developer}{Bender Verlags GmbH}{Au in der Hallertau \color{cvgreen}}{}{img/bender.png} \\
+    \cvevent{2015--2018}{Computer Science (Informatik) B.Sc.}{FAU}{Erlangen \color{cvgreen}}{}{img/fau.png} \\
+    \cvevent{2013--2015}{Bachelor of Science in\newline Business Information Technology }{THI}{Ingolstadt\color{cvgreen}}{}{img/thi.jpg}
 \end{tabular}
 
 \vspace{4em}
@@ -141,8 +141,8 @@ Software Dev ~•~ Containerization ~•~ ELNs
 \begin{minipage}[t]{0.4\textwidth}
 \section*{Degrees}
 \begin{tabular}{r p{0.6\textwidth} c}
-    \cvdegree{2021}{M.Sc. Computer Science}{FAU}{Erlangen \color{headerblue}}{}{img/fau.jpg}\\
-    \cvdegree{2018}{B.Sc. Computer Science}{FAU}{Erlangen \color{headerblue}}{}{img/fau.jpg}\\
+    \cvdegree{2021}{M.Sc. Computer Science}{FAU}{Erlangen \color{headerblue}}{}{img/fau.png}\\
+    \cvdegree{2018}{B.Sc. Computer Science}{FAU}{Erlangen \color{headerblue}}{}{img/fau.png}\\
     \cvdegree{2013}{Abitur}{Dientzenhofer Gymnasium}{ Bamberg\color{headerblue}}{}{img/dg.png}
 \end{tabular}
 \end{minipage}\hfill
@@ -151,10 +151,10 @@ Software Dev ~•~ Containerization ~•~ ELNs
 \section*{Hobbies}
 % usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
 \hobbyicon{\color{iconcolour}\faQuestion}{}{cvgreen}{\iconsize}{2em}\hfill
-\hobbyicon{\color{iconcolour}\faLaptop}{}{headerblue}{\iconsize}{2em}
+\hobbyicon{\color{iconcolour}\faLaptop}{}{cvgreen}{\iconsize}{2em}
 
-\hobbyicon{\color{iconcolour}\faBook}{}{cvpurple}{\iconsize}{2em} \hfill
-\hobbyicon{\color{iconcolour}\faCode}{}{cvorange}{\iconsize}{2em} 
+\hobbyicon{\color{iconcolour}\faBook}{}{cvgreen}{\iconsize}{2em} \hfill
+\hobbyicon{\color{iconcolour}\faCode}{}{cvgreen}{\iconsize}{2em} 
 \end{minipage}
 
 \vspace{4em}
@@ -162,10 +162,13 @@ Software Dev ~•~ Containerization ~•~ ELNs
 \begin{minipage}[t]{0.3\textwidth}
 \section*{Certificates \& Grants}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
-    2013 & Abitur\\
-    2018 & B.Sc. computer science \\
+    2021 & M.Sc. computer science\\
+    2021 &  HACK|BAY 2021 winner: Best Use Case \\
+    2020 &  HACK|BAY 2020 winner: Best Technical Implementation \\
     2019 & Innovation Lab for Wearable and Ubiquitous Computing\\
-    2020 &  Best Technical Implementation HACK|BAY 2020
+    2018 & B.Sc. computer science \\
+    2013 & Abitur\\
+
 \end{tabular}
 %\section*{Strenghts}
 %\cvtag{independent}
@@ -180,22 +183,18 @@ Software Dev ~•~ Containerization ~•~ ELNs
 \begin{minipage}[t]{0.3\textwidth}
 \section*{Publications}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
-    2018 & \emph{Gesture and pose recognition in VR by means of neuronal networks}, bachelor thesis. 
+    2021 & \emph{Tetrapodal Harvesting of the OEIS - FAIR, Semantic Extraction and Organization}, master thesis \\
+    2018 & \emph{Gesture and pose recognition in VR by means of neuronal networks}, bachelor thesis 
 \end{tabular}
 \section*{Talks}
 \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
-    Oct. 2018& presentation of bachelor thesis, at: \emph{LGDV} in Erlangen. \\
+    Sep. 2021& M.Sc.thesis presentation, at \emph{KWARC} in Erlangen \\
+    May 2021& HACK|BAY 2021 final pitch for the "ZOLLHOF office challenge"  (online) \\
+    May 2020& HACK|BAY 2020 final pitch Team "Smart\&Hot" in Nuremberg \\
     Jul. 2019& Innovation Lab pitch, at: \emph{MaD Lab} in Erlangen.\\
-    May 2020& HACK|BAY 2020 challenge pitch in Nuremberg.
+    Oct. 2018& B.Sc. thesis presentation , at: \emph{LGDV} in Erlangen. \\
 \end{tabular}
 \end{minipage}
-
-
-
-
-
-
-
 
 
 \vfill{} % Whitespace before final footer
@@ -208,7 +207,7 @@ Software Dev ~•~ Containerization ~•~ ELNs
 {
 \small Michael Wagner 
 \icon{\faMapMarker}{cvpurple}{} Erlangen 
-\icon{\faEnvelopeO}{cvpurple}{} michael.wm.wagner@fau.de\newline 
+\icon{\faEnvelopeO}{cvpurple}{} michael.wagner.bamberg@gmail.com \newline 
 
 \icon{\faPhone}{cvpurple}{} 49 1575 8776060 %\icon{\faAt}{cvpurple}{} \protect\url{jack@sparrow.com}
 }

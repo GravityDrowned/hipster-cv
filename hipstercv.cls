@@ -275,6 +275,58 @@
 
 
 % ---------------------------------------------------------------------------
+\DeclareOption{michiscolours}{
+% Farben
+\definecolor{headerblue}{HTML}{1c2025}%
+\definecolor{cvorange}{HTML}{aeee99}
+\definecolor{cvpurple}{HTML}{17e0cc}
+
+\definecolor{cvred}{HTML}{aeee99}
+\definecolor{cvgreen}{HTML}{102a44}
+
+
+% TIMELINE
+\definecolor{timelinecolour}{HTML}{414B96} %#660022
+\definecolor{jackbeige}{RGB}{226,212,186} 
+ 
+\newcommand{\paracolbackgroundoptions}{
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.0627, 0.1647,  0.2666}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{0.0627, 0.1647,  0.2666}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+}
+
+\newcommand{\setasidefontcolour}{
+\color{white}
+}
+\definecolor{labelcolour}{HTML}{FFFFFF}
+\definecolor{iconcolour}{HTML}{FFFFFF}
+\definecolor{headerfontbox}{HTML}{1c2025}
+\definecolor{headerfontboxfont}{HTML}{adb3bc}
+\definecolor{skilllabelcolour}{HTML}{102a44}
+}
+
+%-------------------------------------------------------
+\definecolor{darkgrey}{HTML}{1c2025}
+\colorlet{materialpurple}{darkgrey}
+\colorlet{materialindigo}{darkgrey}
+\colorlet{materialblue}{darkgrey}
+\colorlet{materialcyan}{darkgrey}
+\colorlet{materialteal}{darkgrey}
+\colorlet{materialgreen}{darkgrey}
+\colorlet{materiallime}{darkgrey}
+\colorlet{materialamber}{darkgrey}
+\colorlet{materialbrown}{darkgrey}
+\colorlet{materialred}{darkgrey}
+\colorlet{materialorange}{darkgrey}
+\colorlet{pblue}{darkgrey}
+\colorlet{orange}{darkgrey}
+\colorlet{green}{darkgrey}
+
+% ---------------------------------------------------------------------------
+
+
+% ---------------------------------------------------------------------------
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 
