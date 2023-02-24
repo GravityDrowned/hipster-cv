@@ -302,7 +302,7 @@
 \definecolor{labelcolour}{HTML}{FFFFFF}
 \definecolor{iconcolour}{HTML}{FFFFFF}
 \definecolor{headerfontbox}{HTML}{1c2025}
-\definecolor{headerfontboxfont}{HTML}{adb3bc}
+\definecolor{headerfontboxfont}{HTML}{FFFFFF}
 \definecolor{skilllabelcolour}{HTML}{102a44}
 }
 
