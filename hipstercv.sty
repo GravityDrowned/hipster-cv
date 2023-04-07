@@ -128,7 +128,7 @@
 
 
 %----------------------------------------------------- font highlighting / boxes with background color 
-\newcommand{\bg}[3]{\colorbox{#1}{\bfseries\color{#2}#3}}
+\newcommand{\bg}[3]{\colorbox{#1}{\color{#2}#3}}
 \newcommand{\bgupper}[3]{\colorbox{#1}{\color{#2}\huge\bfseries\MakeUppercase{#3}}}
 
 %------------------------- Bubble Diagram
@@ -205,7 +205,7 @@
 
 \newcommand{\progressbar}[2][black!60]{%
     \begin{tikzpicture}
-      \filldraw[fill=cvpurple, draw=white] (0,0) rectangle (2.4,0.5em);
-      \filldraw[fill=white, draw=black] ({2.4*(#2/100)},0) rectangle (2.4,0.5em);
+	      \filldraw[fill=cvpurple, draw=white] (0,0) rectangle (2.4,0.5em);
+      \filldraw[fill=cvlightpurple, draw=cvgreen] ({2.4*(#2/100)},0) rectangle (2.4,0.5em);
      \end{tikzpicture} 
 }

@@ -280,6 +280,7 @@
 \definecolor{headerblue}{HTML}{1c2025}%
 \definecolor{cvorange}{HTML}{aeee99}
 \definecolor{cvpurple}{HTML}{17e0cc}
+\definecolor{cvlightpurple}{HTML}{d3faf7}
 
 \definecolor{cvred}{HTML}{aeee99}
 \definecolor{cvgreen}{HTML}{102a44}
